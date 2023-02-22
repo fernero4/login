@@ -235,7 +235,7 @@ def main_screen():
     mainframe.pack(padx=20, pady=20)
     
     Label(mainframe, text="Username", font=("arial", 30, "bold"), bg="#d7dae2").place(x=100, y=50)
-    Label(mainframe, text="Password", font=("arial", 30, "bold"), bg="#d7dae2").place(x=100, y=50)
+    Label(mainframe, text="Password", font=("arial", 30, "bold"), bg="#d7dae2").place(x=100, y=150)
 
     username=StringVar()
     password=StringVar()
