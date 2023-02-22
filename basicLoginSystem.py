@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import os
 
-IMAG_PATH="C:/Users/ferna/Downloads/python/login/"
+IMAG_PATH="C:/Users/ferna/Downloads/python/login/Images/"
 
 def Login():
     user=username.get()
